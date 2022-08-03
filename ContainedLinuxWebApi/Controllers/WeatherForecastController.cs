@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ContainedWebApi.Controllers
+namespace ContainedLinuxWebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -34,12 +34,6 @@ namespace ContainedWebApi.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
-        }
-        [HttpGet]
-        [Route("Docker1")]
-        public string Docker()
-        {
-            return "Docker1 is online in Linux!";
         }
     }
 }

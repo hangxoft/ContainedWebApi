@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ContainedLinuxWebApi
+build_property.ProjectDir = C:\ws_github\ContainedWebApi\ContainedLinuxWebApi\

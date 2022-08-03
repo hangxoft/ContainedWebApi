@@ -1,0 +1,7 @@
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\ContainedWebApi.exe
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\appsettings.Development.json
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\appsettings.json
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\ContainedWebApi.dll
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\ContainedWebApi.deps.json
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\ContainedWebApi.runtimeconfig.json
+C:\ws_github\ContainedWebApi\ContainedWebApi\obj\Docker\publish\ContainedWebApi.pdb

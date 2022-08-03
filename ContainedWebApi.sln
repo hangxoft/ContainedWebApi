@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainedWebApi", "ContainedWebApi\ContainedWebApi.csproj", "{DDDC3F58-C6B6-4E2E-8DC3-2D46E666FF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainedWebApi", "ContainedWebApi\ContainedWebApi.csproj", "{DDDC3F58-C6B6-4E2E-8DC3-2D46E666FF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainedWindowsWebApi", "ContainedWindowsWebApi\ContainedWindowsWebApi.csproj", "{547E7202-D301-4F15-B72E-B1A62DBB9F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainedLinuxWebApi", "ContainedLinuxWebApi\ContainedLinuxWebApi.csproj", "{D2BC9893-7E2D-45A6-B73C-3DD2213EECDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DDDC3F58-C6B6-4E2E-8DC3-2D46E666FF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDDC3F58-C6B6-4E2E-8DC3-2D46E666FF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDDC3F58-C6B6-4E2E-8DC3-2D46E666FF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547E7202-D301-4F15-B72E-B1A62DBB9F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547E7202-D301-4F15-B72E-B1A62DBB9F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547E7202-D301-4F15-B72E-B1A62DBB9F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547E7202-D301-4F15-B72E-B1A62DBB9F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BC9893-7E2D-45A6-B73C-3DD2213EECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BC9893-7E2D-45A6-B73C-3DD2213EECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BC9893-7E2D-45A6-B73C-3DD2213EECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BC9893-7E2D-45A6-B73C-3DD2213EECDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
