@@ -11,16 +11,14 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ContainedWindowsWebApi/ContainedWindowsWebApi.csproj", "ContainedWindowsWebApi/"]
-RUN dotnet restore "ContainedWindowsWebApi/ContainedWindowsWebApi.csproj"
 COPY . .
-WORKDIR "/src/ContainedWindowsWebApi"
-RUN dotnet build "ContainedWindowsWebApi.csproj" -c Release -o /app/build
+RUN dotnet restore
+RUN dotnet build -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "ContainedWindowsWebApi.csproj" -c Release -o /app/publish
+RUN dotnet publish -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "ContainedWindowsWebApi.dll"]
+ENTRYPOINT ["dotnet", "WebApiDocker.dll"]
